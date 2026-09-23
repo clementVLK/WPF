@@ -1,0 +1,2 @@
+H:\WPF\ACT1_volcke_clement_ex1\obj\Debug\net10.0-windows\App.g.cs
+H:\WPF\ACT1_volcke_clement_ex1\obj\Debug\net10.0-windows\ACT1_volcke_clement_ex1_MarkupCompile.cache
