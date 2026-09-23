@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj": {}
+    "H:\\WPF\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj": {}
   },
   "projects": {
-    "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj": {
+    "H:\\WPF\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj",
+        "projectUniqueName": "H:\\WPF\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj",
         "projectName": "ACT0_volcke_clement_ex4",
-        "projectPath": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj",
+        "projectPath": "H:\\WPF\\ACT0_volcke_clement_ex4\\ACT0_volcke_clement_ex4.csproj",
         "packagesPath": "C:\\Users\\220399\\.nuget\\packages\\",
-        "outputPath": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\obj\\",
+        "outputPath": "H:\\WPF\\ACT0_volcke_clement_ex4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ACT0_volcke_clement_ex4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ae3dacab1da1d7d5a3fae803fd6df41ab319374")]
 [assembly: System.Reflection.AssemblyProductAttribute("ACT0_volcke_clement_ex4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ACT0_volcke_clement_ex4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

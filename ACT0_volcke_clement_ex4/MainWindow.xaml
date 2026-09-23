@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ACT0_volcke_clement_ex4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="500">
     <Grid>
-        <TextBlock Text="Hello, World!" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0"
+                   Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                   TextWrapping="Wrap"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Width="250"/>
+
+        <TextBlock Grid.Column="1"
+                   Text="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariaturLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                   TextWrapping="Wrap"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Width="250"/>
     </Grid>
 </Window>

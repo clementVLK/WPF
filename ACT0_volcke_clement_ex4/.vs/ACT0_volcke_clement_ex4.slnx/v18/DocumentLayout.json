@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\",
+  "WorkspaceRootPath": "H:\\WPF\\ACT0_volcke_clement_ex4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77960B92-180F-4C43-A9B7-3757038902A3}|ACT0_volcke_clement_ex4.csproj|h:\\wpf\\.git\\act0_volcke_clement_ex4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{77960B92-180F-4C43-A9B7-3757038902A3}|ACT0_volcke_clement_ex4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CDDDACD4-25F6-27E1-7D35-EAA95C35CAA0}|ACT0_volcke_clement_ex4.csproj|h:\\wpf\\act0_volcke_clement_ex4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CDDDACD4-25F6-27E1-7D35-EAA95C35CAA0}|ACT0_volcke_clement_ex4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77960B92-180F-4C43-A9B7-3757038902A3}|ACT0_volcke_clement_ex4.csproj|h:\\wpf\\.git\\act0_volcke_clement_ex4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77960B92-180F-4C43-A9B7-3757038902A3}|ACT0_volcke_clement_ex4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CDDDACD4-25F6-27E1-7D35-EAA95C35CAA0}|ACT0_volcke_clement_ex4.csproj|h:\\wpf\\act0_volcke_clement_ex4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDDDACD4-25F6-27E1-7D35-EAA95C35CAA0}|ACT0_volcke_clement_ex4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\MainWindow.xaml",
+              "DocumentMoniker": "H:\\WPF\\ACT0_volcke_clement_ex4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\MainWindow.xaml",
+              "ToolTip": "H:\\WPF\\ACT0_volcke_clement_ex4\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-09-16T10:09:48.034Z",
@@ -40,14 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\MainWindow.xaml.cs",
+              "DocumentMoniker": "H:\\WPF\\ACT0_volcke_clement_ex4\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "H:\\WPF\\.git\\ACT0_volcke_clement_ex4\\MainWindow.xaml.cs",
+              "ToolTip": "H:\\WPF\\ACT0_volcke_clement_ex4\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T10:09:46.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-16T10:09:46.475Z"
             }
           ]
         }
