@@ -1,82 +1,217 @@
-﻿<Window x:Class="ACT1_volcke_clement_ex2.MainWindow"
+<Window x:Class="ACT1_volcke_clement_ex2.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ACT1_volcke_clement_ex2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Calculatrice"
+        Height="450"
+        Width="350">
+
+    <Grid Background="#A8B3B3"
+          Margin="10">
+
+        <!-- 5 lignes -->
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
+            <RowDefinition Height="65"/>
         </Grid.RowDefinitions>
+
+        <!-- 4 colonnes -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+
+
+        <!-- Écran -->
         <TextBox Grid.Row="0"
                  Grid.Column="0"
-                 Grid.ColumnSpan="3"/>
+                 Grid.ColumnSpan="3"
+                 Margin="5"
+                 FontSize="25"
+                 HorizontalContentAlignment="Right"
+                 VerticalContentAlignment="Center"/>
+
+        <!-- Bouton C -->
         <Button Grid.Row="0"
                 Grid.Column="3"
-                Content="C"/>
+                Content="C"
+                Margin="5"
+                FontSize="25"
+                FontWeight="Bold"
+                Background="#F21F3F"/>
+
+
+        <!-- Ligne 1 : 1 2 3 + -->
         <StackPanel Grid.Row="1"
                     Grid.Column="0"
                     Grid.ColumnSpan="4"
-                    Orientation="Horizontal">
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="1"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
-            <Button Width="100" Content="1"/>
-            <Button Width="100" Content="2"/>
-            <Button Width="100" Content="3"/>
-            <Button Width="100" Content="+"/>
-            
-           
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="2"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
+
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="3"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
+
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="+"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#4CAF50"/>
         </StackPanel>
+
+
+        <!-- Ligne 2 : 4 5 6 - -->
         <StackPanel Grid.Row="2"
-             Grid.Column="0"
-             Grid.ColumnSpan="4"
-             Orientation="Horizontal">
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="4"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
-            <Button Width="100" Content="1"/>
-            <Button Width="100" Content="2"/>
-            <Button Width="100" Content="3"/>
-            <Button Width="100" Content="+"/>
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="5"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="6"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="-"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#4CAF50"/>
         </StackPanel>
+
+
+        <!-- Ligne 3 : 7 8 9 / -->
         <StackPanel Grid.Row="3"
-             Grid.Column="0"
-             Grid.ColumnSpan="4"
-             Orientation="Horizontal">
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="7"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
-            <Button Width="100" Content="1"/>
-            <Button Width="100" Content="2"/>
-            <Button Width="100" Content="3"/>
-            <Button Width="100" Content="+"/>
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="8"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="9"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="/"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#4CAF50"/>
         </StackPanel>
+
+
+        <!-- Ligne 4 : , 0 * = -->
         <StackPanel Grid.Row="4"
-             Grid.Column="0"
-             Grid.ColumnSpan="4"
-             Orientation="Horizontal">
+                    Grid.Column="0"
+                    Grid.ColumnSpan="4"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content=","
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#9DD3E8"/>
 
-            <Button Width="100" Content="1"/>
-            <Button Width="100" Content="2"/>
-            <Button Width="100" Content="3"/>
-            <Button Width="100" Content="+"/>
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="0"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#80C4C4"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="*"
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#4CAF50"/>
 
+            <Button Width="55"
+                    Height="50"
+                    Margin="4"
+                    Content="="
+                    FontSize="25"
+                    FontWeight="Bold"
+                    Background="#FFC107"/>
         </StackPanel>
+
     </Grid>
+
 </Window>
